@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Nuestra Boda | Galería</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- PORTADA -->
+    <section class="portada">
+
+        <div class="contenido-portada">
+
+            <p class="etiqueta">NUESTRA BODA</p>
+
+            <div class="corazon">♡</div>
+
+            <h1>Lily <span>&</span> Nery</h1>
+
+            <p class="fecha">28 · NOVIEMBRE · 2026</p>
+
+            <div class="linea"></div>
+
+            <h2>Captura. Comparte. Recuerda.</h2>
+
+            <p class="descripcion">
+                Queremos recordar este día también
+                a través de tus ojos.
+                Comparte con nosotros esos momentos
+                especiales que captures durante nuestra boda.📷
+            </p>
+
+            <!-- BOTÓN PARA SELECCIONAR FOTOS -->
+
+            <label for="selectorFotos" class="boton-fotos">
+                <span class="icono">📷</span>
+
+                <span>
+                    <strong>Seleccionar fotos</strong>
+                    <small>Comparte tus mejores momentos</small>
+                </span>
+            </label>
+
+            <input
+                type="file"
+                id="selectorFotos"
+                accept="image/*"
+                multiple
+            >
+
+            <p class="nota">
+                Puedes seleccionar varias fotografías ♡
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOTOS SELECCIONADAS -->
+
+    <section
+        class="seleccionadas"
+        id="seccionSeleccionadas"
+    >
+
+        <p class="etiqueta">
+            TUS FOTOGRAFÍAS
+        </p>
+
+        <h2>
+            Listas para compartir
+        </h2>
+
+        <div
+            class="vista-previa"
+            id="vistaPrevia"
+        >
+        </div>
+
+        <button
+            class="boton-subir"
+            id="botonSubir"
+        >
+            ♡ Compartir recuerdos
+        </button>
+
+    </section>
+
+
+    <!-- GALERÍA -->
+
+    <section class="galeria">
+
+        <p class="etiqueta">
+            NUESTROS RECUERDOS
+        </p>
+
+        <h2>
+            Momentos compartidos
+        </h2>
+
+        <p class="texto-galeria">
+            Una colección de momentos especiales
+            capturados por las personas que queremos.
+        </p>
+
+        <div
+            class="contenedor-galeria"
+            id="galeria"
+        >
+
+            <div class="galeria-vacia">
+
+                <span>♡</span>
+
+                <p>
+                    Aquí comenzarán a aparecer
+                    nuestros recuerdos.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PIE DE PÁGINA -->
+
+    <footer>
+
+        <div>♡</div>
+
+        <p>
+            Gracias por formar parte
+            de nuestra historia
+        </p>
+
+        <small>
+            Andrea & Carlos · 2026
+        </small>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
